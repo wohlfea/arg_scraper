@@ -1,13 +1,12 @@
 from BeautifulSoup import BeautifulSoup
 from sys import argv
-from pprint import pprint
 import urllib
 
 
 def main(url, target):
     r = urllib.urlopen(url).read()
     soup = BeautifulSoup(r)
-    pprint(soup)
+    print(soup.prettify())
 
 
 if __name__ == '__main__':
