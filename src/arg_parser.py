@@ -20,7 +20,7 @@ def main(url, target):
         pprint(words)
     else:
         print("There are no results for the {} of '{}'".format(target[0],
-                                                                target[1]))
+                                                               target[1]))
 
 
 def parse(target):
