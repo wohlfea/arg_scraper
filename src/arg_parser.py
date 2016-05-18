@@ -1,3 +1,4 @@
+# _*_ encoding: utf-8 _*_
 from bs4 import BeautifulSoup
 from sys import argv
 from pprint import pprint
